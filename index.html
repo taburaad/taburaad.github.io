@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>Tony Aburaad</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Tony Aburaad</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,8 +54,11 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#projects">Projects</a>
                     </li>
+		    <li>
+			<a class="page-scroll" href="#coursework">Coursework</a>
+		    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -70,10 +73,11 @@
     <section id="intro" class="intro-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <h1 id="homeHeading">Anthony (Tony) Aburaad</h1>
+		    <hr>
+                    <p>Grad student in computer science / software engineer</p>
+                    <a class="btn btn-default page-scroll" href="#about">About</a>
                 </div>
             </div>
         </div>
@@ -83,30 +87,91 @@
     <section id="about" class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>About Section</h1>
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <h1>About</h1>
+		    <hr>
+		    <p><br></p>
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"> I am a Masters student in CS at the University of Chicago. In addition to class, I work on implementing
+		    new statistical methods in Python at the <a style="font-weight: 400" href="https://spatial.uchicago.edu/">Center for Spatial Data Science</a>, and migrating a new <a style="font-weight: 400" href="http://cri.uchicago.edu/gardner/">high performance computing cluster</a> at the Center for Research Informatics. 
+		    Last summer, I worked at the <a style="font-weight: 400" href="https://www.ci.uchicago.edu/"> Computation Institute</a> to improve a command line caching tool used by physicists. 
+		    I expect to graduate in March of 2018, with experience and coursework in software engineering, iOS development, and machine learning.
+		    </p>
+
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px">
+		    Prior to graduate school, I was a data analyst in Nielsen's Marketing Analytics group, where I gained experience in predictive modeling, Bayesian regression methods, and SAS/SQL programming.
+		    I earned my B.A. in Economics from University of Chicago as well, where I participated in <a style="font-weight: 400" href="http://www.chomun.org/#home"> Model UN</a>,<a style="font-weight: 400" href="http://tbc.uchicago.edu/"> The Blue Chips</a>, and Delta Kappa Epsilon. 
+		    </p>
+
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px">
+		    My hobbies/interests include cycling, vintage audio, rap/hip hop, and augmented reality. 
+		    </p>
+		    <p><br></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <h1>Projects</h1>
+		    <hr>
+		    <p><br></p>
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"><strong>Real Time Music Streaming Analytics</strong> - A simple demonstration of how gathering and analyzing a stream of data can be easily handled with Hadoop, Pig, HBase, Kafka, and Python.
+		    This web app uses a combination of real and synthetic data to track current popular songs and genres by city, and uses lambda architecture to handle batch, serving, and speed layers. <a style="font-weight: 400" href="https://github.com/taburaad/music-streaming-analytics">link</a>
+		    </p>
+
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"><strong>Java-like Compiler</strong> - Compiler written in Python for Java-like language (Jack) for educational purposes. Translates object
+		    oriented code to VM code, passes to assembler which translates to 16 bit machine code. link
+		    </p>
+		
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"><strong>Interactive Beer Database</strong> - Beer recommendation web app written in PHP, HTML, and SQL, hosted on a mySQL database
+		    </p>
+
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"><strong>Raspberry Pi Intercom</strong> - Wireless 2G smart touchscreen intercom written in Python, using Kivy Framework, built on Raspberry Pi
+		    </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Coursework Section -->
+    <section id="coursework" class="coursework-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <h1>Coursework</h1>
+		    <hr>
+		    <p><br></p>
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"><strong>Graduate Coursework</strong> - 
+			Algorithms, Computer Systems, OOP in Java, Big Data, Databases, Discrete Mathematics, Foundations of Computational Data Analysis, iOS Development
+		    </p>
+		    <p class="xs-left" style="text-align: justify; font-weight: 300; font-size: 15px"><strong>Undergraduate Coursework</strong> - 
+			C Programming, Statistics and Probability, Categorical Data Analysis, Computational Economics
+		    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                    <h1>Contact</h1>
+		    <hr>
+		    <p>
+		    <strong>Email</strong> - taburaad at uchicago dot edu 
+		    </p>
+		    <p>
+		    <a style="font-weight: 400" href="https://github.com/taburaad">GitHub</a>  
+		    </p>
+		    <p>
+		    <a style="font-weight: 400" href="https://www.linkedin.com/in/anthony-aburaad">LinkedIn</a>
+		    </p>
                 </div>
             </div>
         </div>
